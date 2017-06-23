@@ -378,8 +378,9 @@ tinymce.PluginManager.add('charmap', function(editor) {
 				var target = e.target;
 
 				if (/^(TD|DIV)$/.test(target.nodeName)) {
-					if (getParentTd(target).firstChild) {
-						insertChar(target.getAttribute('data-chr'));
+					var charDiv = getParentTd(target).firstChild;
+						if (charDiv && charDiv.hasAttribute('data-chr')) {
+							insertChar(charDiv.getAttribute('data-chr'));
 
 						if (!e.ctrlKey) {
 							win.close();
