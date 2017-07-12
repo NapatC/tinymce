@@ -1,9 +1,9 @@
 {
   "name": "tinymce",
-  "version": "4.5.7",
+  "version": "4.5.7-dst1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tinymce/tinymce.git"
+    "url": "https://github.com/NapatC/tinymce.git"
   },
   "description": "TinyMCE rich text editor",
   "author": "Johan Sörlin <spocke@moxiecode.com>",

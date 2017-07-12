@@ -1,3 +1,6 @@
+Version 4.5.7-dst1 [https://github.com/NapatC/tinymce] (2017-07-12)
+	Fixed bug where the charmap plugin wouldn't properly insert characters in the editor.
+	Fixed bug where bullet list in spcefic content make IE11 with compatbility mode crash.
 Version 4.5.7 (2017-04-25)
 	Fixed bug with selection around inline contenteditable false would get collapsed incorrectly.
 	Fixed bug where pasting on Microsoft Edge 40+ would produce clipboard fragment headers.
